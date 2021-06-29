@@ -23,7 +23,7 @@
 #' vectorToHRT(testdataLong, annotations = testdataLong_Ann, PVCAnn = "V")
 #' 
 #' # Find HRTs with a broader range of sinus beats before and after the VPCs
-#' vectorToHRT(testdataLong, testdataLong_Ann, inputName = "Dummy Measurement", numPreRRs = 10, numPostRRs = 20)
+#' vectorToHRT(testdataLong, inputName = "Dummy Measurement", numPreRRs = 10, numPostRRs = 20)
 #'  
 #' # Adjust the normalisation parameters
 #' vectorToHRT(testdataLong, testdataLong_Ann, normHallstrom = FALSE, normIL = 900)
